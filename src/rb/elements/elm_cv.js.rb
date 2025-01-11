@@ -68,7 +68,7 @@ export default class ElmCv < HTMLElement
       </div>
 
       <div class='section--content section--content-single-textarea'>
-        <p><span>Jsem zkušený programátor se zaměřením na úpravy open-source projektů, analýzu dat a webový vývoj. Mám bohaté zkušenosti získané při práci v Praze a Brně v různých oblastech IT. Mou vášní je vytváření inovativních řešení, o kterých sdílím poznatky prostřednictvím článků a videí. Hledám příležitost dále rozvíjet své dovednosti a přispět k úspěchu vašeho týmu.</span></p>
+        <p><span>Specializuji se na open-source projekty, analýzu dat a webový vývoj. Mám bohaté zkušenosti získané při práci v Praze a Brně v různých oblastech IT. Mou vášní je vytváření inovativních řešení, o kterých sdílím poznatky prostřednictvím článků a videí. Hledám příležitost dále rozvíjet své dovednosti a přispět k úspěchu vašeho týmu.</span></p>
       </div>
     </div>
     <div class='section'>
@@ -132,9 +132,56 @@ export default class ElmCv < HTMLElement
 
     </div>
 
+    <div class='section'>
+      <div class='section--title'>
+        <h2>
+          <i class='section--title-icon'>
+            <svg fill='#fff' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'>
+              <path
+                d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'>
+              </path>
+              <path d='M0 0h24v24H0z' fill='none'></path>
+            </svg>
+          </i>
+          Technické dovednosti
+        </h2>
+      </div>
+    
+      <ol class='section--list'>
+        <li class='section--item'>
+          <div class='section--heading-group'>
+            <div class='section--heading'>
+              <h3>Programovací jazyky</h3>
+            </div>
+          </div>
+          <div class='section--content'>
+            <p>Ruby, JavaScript, C#, Vlang</p>
+          </div>
+        </li>
 
+        <li class='section--item'>
+          <div class='section--heading-group'>
+            <div class='section--heading'>
+              <h3>Nástroje</h3>
+            </div>
+          </div>
+          <div class='section--content'>
+            <p>RubyJS-Vite, Git, Vite, Linuxové prostředí</p>
+          </div>
+        </li>
 
-
+        <li class='section--item'>
+          <div class='section--heading-group'>
+            <div class='section--heading'>
+              <h3>Operační systémy</h3>
+            </div>
+          </div>
+          <div class='section--content'>
+            <p>ChromeOS, Linux, Windows, Android</p>
+          </div>
+        </li>
+      </ol>
+    </div>
 
     <div class='section'>
 
@@ -143,7 +190,7 @@ export default class ElmCv < HTMLElement
           <i class='section--title-icon'>
             <svg fill='#fff' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'>
               <path
-                d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'>
+                d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79l4.3 4.3v.69c0 1.1.9 2 2 2v2.73zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8V9h2c.55 0 1-.45 1-1V6h2c.55 0 1-.45 1-1V4.41c2.93 1.19 5 4.06 5 7.34 0 2.08-.8 3.97-2.1 5.34z'>
               </path>
               <path d='M0 0h24v24H0z' fill='none'></path>
             </svg>
