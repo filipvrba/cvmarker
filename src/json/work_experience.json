@@ -1,0 +1,28 @@
+{
+  "list": [
+    {
+      "date": [
+        "2018", "Součastnost"
+      ],
+      "heading": "Open Source Developer",
+      "subHeading": "OSVČ, Remote",
+      "content": "Jako open-source vývojář se specializuji na tvorbu různých webových aplikací na zakázku. Většinou se zaměřuji na aplikace s důrazem na vizuální prezentaci, které nevyžadují vysokou složitost vývoje. Kromě toho pracuji na komplexnějších webových aplikacích, které vyžadují průběžnou údržbu a konzultace s klienty ohledně dalšího vývoje a úprav. Pokud zrovna nemám aktivní zakázky, věnuji se vývoji projektů pro veřejnost."
+    },
+    {
+      "date": [
+        "2017", "2018"
+      ],
+      "heading": "Game Programmer",
+      "subHeading": "BadFly Interactive, a.s, Brno",
+      "content": "Pracoval jsem s Unreal Engine, což je především editor pro tvorbu videoher. Začal jsem učením Visual Scriptu, pomocí kterého jsem vytvořil základní funkce zbraní a AI postav. Poté jsem přešel na C++ a upravil menu, abych mohl vytvářet vlastní modely postav."
+    },
+    {
+      "date": [
+        "2015", "2016"
+      ],
+      "heading": "Software Programmer",
+      "subHeading": "MEDIAN, s.r.o., Praha",
+      "content": "Byl jsem zodpovědný za zdrojový kód interní desktopové aplikace. Byla použita knihovna Windows Form s programy v jazyce C#. Tento program slouží jako nástroj pro řízení projektů a organizaci úkolů pro výzkumnou agenturu."
+    }
+  ]
+}

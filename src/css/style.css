@@ -1,0 +1,427 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+html {
+  height: 100%
+}
+
+body {
+  width: 21cm;
+  height: 100%;
+  min-height: 29.7cm;
+  position: relative;
+  margin: 0;
+  padding: 0 0;
+  color: #333;
+  line-height: 22px;
+font: 13px "Source Sans Pro", Arial;
+   font-style: normal
+}
+
+h1 {
+font: 30px "Source Sans Pro", Arial;            margin: 0;
+  margin: 0 0 15px 0;
+  padding: 20px 0 0 0;
+  font-weight: 600;
+  color: #333
+}
+
+h1 span {
+  position: relative;
+  font-style: normal;
+  display: inline;
+  margin-right: 1px;
+  padding: 0
+}
+
+h2 {
+font: 16px "Source Sans Pro", Arial;            font-weight: 400;
+  margin: 0;
+  padding: 4px 0 12px 10px;
+  background: #f1f1f1
+}
+
+h3 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0
+}
+
+p {
+  color: #4c4c4c;
+  line-height: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0
+}
+
+hr {
+  border: none;
+  height: 1px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #d2d2d2
+}
+
+.hero {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 85px;
+  display: none;
+  background: #272727;
+  position: absolute
+}
+
+.sections {
+  left: 40px;
+  position: relative;
+  width: 715px
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  padding: 0
+}
+
+.section p {
+  display: block;
+  font-style: normal
+}
+
+.section:last-child {
+  border: none
+}
+
+.section.section--summary .section--content {
+  padding-top: 0;
+  padding-left: 0
+}
+
+.section--name {
+  position: relative
+}
+
+.section--name.has--avatar {
+  padding-left: 84px;
+  padding-top: 10px
+}
+
+.section--avatar {
+  display: inline-block;
+  position: absolute;
+  top: 19px;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  -webkit-background-size: cover !important;
+  background-size: cover !important
+}
+
+.section--title {
+  display: block;
+  position: relative;
+  z-index: 99;
+  margin: 0;
+  padding: 20px 0 15px 0;
+  page-break-inside: avoid
+}
+
+.section--title span {
+  display: inline-block;
+  margin-right: 0
+}
+
+.section--title-icon {
+  position: relative;
+  top: 2px;
+  left: 0;
+  display: inline-block;
+  width: 30px
+}
+
+.section--title-icon svg {
+  position: relative;
+  top: 2px;
+  height: 21px;
+  fill: #2b2b38
+}
+
+.section--title-icon.personal svg {
+  top: 3px
+}
+
+.section--title-icon.education svg {
+  top: 4px
+}
+
+.section--title-icon.internships svg {
+  top: 3px
+}
+
+.section--title-icon.language svg {
+  top: 4px
+}
+
+.section--title-icon.course svg {
+  top: 4px
+}
+
+.section--title-icon.work svg {
+  top: 3px
+}
+
+.section--title-icon.certificate svg {
+  top: 4px
+}
+
+.section--title-icon.single-textarea svg {
+  top: 4px
+}
+
+.section--title-icon.extra-curricular svg {
+  top: 3px
+}
+
+.section--title-icon.skill svg {
+  top: 4px
+}
+
+.section--title-icon.reference svg {
+  top: 4px
+}
+
+.section--heading-group {
+  display: block;
+  padding: 5px 0 0 0;
+  margin: 0;
+  page-break-inside: avoid
+}
+
+.section--list {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0
+}
+
+.section--item {
+  display: block;
+  position: relative;
+  list-style: none;
+  padding: 10px 0 0 0;
+  margin: 0
+}
+
+.section--item.section--item-personal {
+  padding-top: 0;
+  padding-left: 140px
+}
+
+.section--item.section--item-personal .section--date {
+  top: 5px;
+  left: 0;
+  right: auto;
+  text-align: left
+}
+
+.section--item:first-child:not(.section--item-personal) {
+  padding: 2px 0 0 0
+}
+
+.section--item:first-child:not(.section--item-personal) .section--heading-group {
+  padding-top: 0
+}
+
+.section--item:first-child:not(.section--item-personal) .section--heading-group .section--date {
+  top: 0
+}
+
+.section--date {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 15px;
+width: 120px;
+  font-size: 13px;
+  padding: 0;
+  margin: 0
+}
+
+.section--heading {
+  display: block;
+  padding: 0;
+  margin: 0
+}
+
+.section--sub-heading {
+  display: block;
+  padding: 3px 0 0 0;
+  margin: 0;
+  font-style: italic;
+  font-size: 13px
+}
+
+.section--content {
+  display: block;
+  width: 600px;
+  padding: 5px 0 0 0;
+  margin: 0
+}
+
+.section--content p {
+  display: block
+}
+
+.section--content ol, .section--content ul {
+  white-space: normal;
+  font-weight: 400;
+  list-style-position: outside;
+  color: #4c4c4c;
+  margin: 0;
+  padding: 0 0 0 16px
+}
+
+.section--content ol li, .section--content ul li {
+  line-height: 18px
+}
+
+.section--content ul li {
+  list-style-type: disc
+}
+
+.section--content ol {
+  padding-left: 14px
+}
+
+.section--content-single-textarea {
+  padding-left: 0
+}
+
+.c--333333 .section--title, .c--333333 h1 {
+  color: #333 !important
+}
+
+.c--333333 .section--title svg {
+  fill: #333 !important
+}
+
+.c--379047 .section--sub-heading, .c--379047 h1, .c--379047 h2 {
+  color: #48634c !important
+}
+
+.c--379047 .section--title svg {
+  fill: #48634c !important
+}
+
+.c--3f6592 .section--title, .c--3f6592 h1 {
+  color: #3f6592 !important
+}
+
+.c--3f6592 .section--title svg {
+  fill: #3f6592 !important
+}
+
+.c--7a345e .section--title, .c--7a345e h1 {
+  color: #7a345e !important
+}
+
+.c--7a345e .section--title svg {
+  fill: #7a345e !important
+}
+
+.c--ac3e49 .section--title, .c--ac3e49 h1 {
+  color: #ac3e49 !important
+}
+
+.c--ac3e49 .section--title svg {
+  fill: #ac3e49 !important
+}
+
+/* Direction RTL overrides */
+html[dir="rtl"] h1 span {
+  margin-right: initial;
+  margin-left: 1px;
+}
+
+html[dir="rtl"] h2 {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+html[dir="rtl"] .hero {
+  left: initial;
+  right: 0;
+}
+
+html[dir="rtl"] .sections {
+  left: initial;
+  right: 40px;
+}
+
+html[dir="rtl"] .section.section--summary .section--content {
+  padding-left: initial;
+  padding-right: 0;
+}
+
+html[dir="rtl"] .section--name.has--avatar {
+  padding-left: initial;
+  padding-right: 60px;
+}
+
+html[dir="rtl"] .section--avatar {
+  left: initial;
+  right: 0;
+}
+
+html[dir="rtl"] .section--title span {
+  margin-right: initial;
+  margin-left: 0;
+}
+
+html[dir="rtl"] .section--title-icon {
+  left: initial;
+  right: 0;
+}
+
+html[dir="rtl"] .section--item.section--item-personal {
+  padding-left: initial;
+  padding-right: 140px;
+}
+
+html[dir="rtl"] .section--item.section--item-personal .section--date {
+  left: auto;
+  right: 0;
+  text-align: right;
+}
+
+html[dir="rtl"] .section--date {
+  right: initial;
+  left: 0;
+  text-align: left;
+}
+
+html[dir="rtl"] .section--content ol, html[dir="rtl"] .section--content ul {
+  padding-left: 0;
+  padding-right: 16px;
+}
+
+html[dir="rtl"] .section--content ol {
+  padding-left: initial;
+  padding-right: 14px;
+}
+
+html[dir="rtl"] .section--content-single-textarea {
+  padding-left: initial;
+  padding-right: 0;
+}
