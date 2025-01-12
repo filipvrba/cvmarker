@@ -1,12 +1,16 @@
 import CWorkExperience from "../components/elm-cv/work_experience";
 import CPersonal from "../components/elm-cv/personal";
+import CTechnicalSkills from "../components/elm-cv/technical_skills";
+import CCareerObjective from "../components/elm-cv/career_objective";
 
 export default class ElmCv extends HTMLElement {
   constructor() {
     super();
     this.initElm();
     this._cWorkExperience = new CWorkExperience(this);
-    this._cPersonal = new CPersonal(this)
+    this._cPersonal = new CPersonal(this);
+    this._cTechnicalSkills = new CTechnicalSkills(this);
+    this._cCareerObjective = new CCareerObjective(this)
   };
 
   connectedCallback() {
@@ -52,25 +56,9 @@ export default class ElmCv extends HTMLElement {
 
 
 
-    <div class='section'>
-
-      <div class='section--title'>
-        <h2>
-          <i class='section--title-icon single-textarea'>
-            <svg fill='#000000' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'>
-              <path d='M14 17H4v2h10v-2zm6-8H4v2h16V9zM4 15h16v-2H4v2zM4 5v2h16V5H4z'></path>
-              <path d='M0 0h24v24H0z' fill='none'></path>
-            </svg>
-          </i>
-          Profesní cíl
-
-        </h2>
-      </div>
-
-      <div class='section--content section--content-single-textarea'>
-        <p><span>Specializuji se na open-source projekty, analýzu dat a webový vývoj. Mám bohaté zkušenosti získané při práci v Praze a Brně v různých oblastech IT. Mou vášní je vytváření inovativních řešení, o kterých sdílím poznatky prostřednictvím článků a videí. Hledám příležitost dále rozvíjet své dovednosti a přispět k úspěchu vašeho týmu.</span></p>
-      </div>
+    <div id='sectionCareerObjective' class='section'>
     </div>
+
     <div class='section'>
 
       <div class='section--title'>
@@ -132,55 +120,7 @@ export default class ElmCv extends HTMLElement {
 
     </div>
 
-    <div class='section'>
-      <div class='section--title'>
-        <h2>
-          <i class='section--title-icon'>
-            <svg fill='#fff' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'>
-              <path
-                d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'>
-              </path>
-              <path d='M0 0h24v24H0z' fill='none'></path>
-            </svg>
-          </i>
-          Technické dovednosti
-        </h2>
-      </div>
-    
-      <ol class='section--list'>
-        <li class='section--item'>
-          <div class='section--heading-group'>
-            <div class='section--heading'>
-              <h3>Programovací jazyky</h3>
-            </div>
-          </div>
-          <div class='section--content'>
-            <p>Ruby, JavaScript, C#, Vlang</p>
-          </div>
-        </li>
-
-        <li class='section--item'>
-          <div class='section--heading-group'>
-            <div class='section--heading'>
-              <h3>Nástroje</h3>
-            </div>
-          </div>
-          <div class='section--content'>
-            <p>RubyJS-Vite, Git, Vite, Linuxové prostředí</p>
-          </div>
-        </li>
-
-        <li class='section--item'>
-          <div class='section--heading-group'>
-            <div class='section--heading'>
-              <h3>Operační systémy</h3>
-            </div>
-          </div>
-          <div class='section--content'>
-            <p>ChromeOS, Linux, Windows, Android</p>
-          </div>
-        </li>
-      </ol>
+    <div id='sectionTechnicalSkills' class='section'>
     </div>
 
     <div class='section'>
@@ -200,7 +140,7 @@ export default class ElmCv extends HTMLElement {
       </div>
 
       <div class='section--content section--content-single-textarea'>
-        <p> Workout, programování, IT vzdělávání</p>
+        <p> Workout, programování, angličtina</p>
       </div>
     </div>
   </section>

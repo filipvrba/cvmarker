@@ -1,0 +1,18 @@
+{
+  "sections": [
+  ],
+  "itSections": [
+    {
+      "name": "Programovací jazyky",
+      "skills": "Ruby, JavaScript, C#, Vlang"
+    },
+    {
+      "name": "Nástroje",
+      "skills": "RubyJS-Vite, Git, Vite, Linuxové prostředí"
+    },
+    {
+      "name": "Operační systémy",
+      "skills": "ChromeOS, Linux, Windows, Android"
+    }
+  ]
+}
