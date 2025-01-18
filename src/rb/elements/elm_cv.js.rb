@@ -1,5 +1,5 @@
-import 'CWorkExperience', '../components/elm-cv/work_experience'
-import 'CPersonal', '../components/elm-cv/personal'
+import 'CWorkExperience',  '../components/elm-cv/work_experience'
+import 'CPersonal',        '../components/elm-cv/personal'
 import 'CTechnicalSkills', '../components/elm-cv/technical_skills'
 import 'CCareerObjective', '../components/elm-cv/career_objective'
 
