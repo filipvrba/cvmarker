@@ -11,6 +11,10 @@ export default class CWorkExperience {
     let elements = [];
 
     for (let workDetails of objWorkExperience.list) {
+      let textWithoutBrackets = workDetails.content.split("[")[0].trim();
+      let contentTemplates = [];
+      contentTemplates.push(`<p>${textWithoutBrackets}</p>`);
+      contentTemplates.push(this.subinitElm(workDetails.content));
       let template = `${`
 <li class='section--item'>
   <div class='section--heading-group'>
@@ -22,7 +26,7 @@ export default class CWorkExperience {
       ${workDetails.subHeading} </div>
   </div>
   <div class='section--content'>
-    <p>${workDetails.content}</p>
+    <p>${contentTemplates.join("")}</p>
   </div>
 </li>
       `}`;
@@ -30,5 +34,23 @@ export default class CWorkExperience {
     };
 
     return this._workExperienceContainer.innerHTML = elements.join("")
+  };
+
+  subinitElm(content) {
+    let regexSquareBrackets = /\[([^\]]+)\]/;
+    if (!content.match(regexSquareBrackets)) return "";
+    let contentWithBrackets = content.match(regexSquareBrackets) || "";
+    if (contentWithBrackets) content = contentWithBrackets[1];
+    if (!content) return "";
+    let ulElement = ["<ul>"];
+    let items = content.split(";").map(item => item.trim());
+
+    for (let item of items) {
+      let template = `<li>${item}</li>`;
+      ulElement.push(template)
+    };
+
+    ulElement.push("</ul>");
+    return ulElement.join("")
   }
 }

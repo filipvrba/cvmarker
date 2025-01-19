@@ -1,8 +1,31 @@
 {
-  "List": [
-    
-  ],
   "list": [
+    {
+      "date": [
+        "2021", "2025"
+      ],
+      "heading": "Prodavač",
+      "subHeading": "Bio-farm indoor s.r.o., Zlín",
+      "content": "[Poskytování profesionálního zákaznického servisu a odborné poradenství při výběru produktů.; Péče o vystavení zboží a udržování čistoty a pořádku v prodejně.; Zodpovědnost za příjem a evidenci zboží, včetně inventur.; Aktivní podíl na propagaci a prodeji ekologických a bio produktů.; Řešení reklamací a dotazů zákazníků s důrazem na spokojenost klienta.]"
+    },
+    {
+      "date": [
+        "2019", "2021"
+      ],
+      "heading": "Práce na pokladně / práce v úseku",
+      "subHeading": "Albert Česká republika, s.r.o., Kroměříž",
+      "content": "[Obsluha pokladny a práce s hotovostí, platebními kartami a stravenkami.; Zajištění plynulého chodu pokladní zóny a poskytování kvalitního zákaznického servisu.; Doplňování zboží v úseku, kontrola expirací a zajištění atraktivního vzhledu regálů.; Spolupráce s kolegy při přípravě promo akcí a sezónních kampaní.; Řešení zákaznických dotazů a pomoc při orientaci v prodejně.]"
+    },
+    {
+      "date": [
+        "2015", "2019"
+      ],
+      "heading": "Zámečník",
+      "subHeading": "KOVOX, spol. s r.o., Otrokovice",
+      "content": "[Výroba a montáž kovových konstrukcí podle technické dokumentace.; Práce s různými typy materiálů (ocel, nerez, hliník) a jejich úprava.; Vrtání, broušení a další zámečnické práce.; Údržba a opravy výrobních zařízení a strojů.; Dodržování bezpečnostních předpisů a kvality výroby.]"
+    }
+  ],
+  "itList": [
     {
       "date": [
         "2018", "Součastnost"
