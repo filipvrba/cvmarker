@@ -1,14 +1,14 @@
 {
-  "sections": [
+  "ections": [
   ],
-  "itSections": [
+  "sections": [
     {
       "name": "Programovací jazyky",
       "skills": "Ruby, JavaScript, C#, Vlang"
     },
     {
       "name": "Nástroje",
-      "skills": "RubyJS-Vite, Git, Vite, Linuxové prostředí"
+      "skills": "RubyJS-Vite, Git, Vite, Linuxové prostředí, SQL"
     },
     {
       "name": "Operační systémy",
