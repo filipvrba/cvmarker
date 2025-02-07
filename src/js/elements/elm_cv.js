@@ -111,8 +111,7 @@ export default class ElmCv extends HTMLElement {
               Střední škola - Puškař, Uherský Brod </div>
 
             <div class='section--content'>
-              <p>Učí studenty terminologii, konstrukci a opravám zbraní na střední škole, která se zaměřuje na
-                puškařství.</p>
+              <p>Škola učí studenty o zbraních, včetně terminologie, konstrukce a oprav. Zaměřuje se na puškařství.</p>
             </div>
           </div>
         </li>
